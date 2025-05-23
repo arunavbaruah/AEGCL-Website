@@ -1,0 +1,34 @@
+.holidays-card {
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.holidays-card .card-header {
+    background-color: #090d49;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.holidays-card .card-body ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.holidays-card .card-body li {
+    padding: 5px 0;
+}
+
+/* src/ProfileCard.css */
+.holidays-card {
+    margin-bottom: 20px; /* Ensure spacing between cards */
+}
+
+@media (max-width: 768px) {
+    .holidays-card {
+        margin-bottom: 10px; /* Adjust spacing on small screens */
+    }
+}
+

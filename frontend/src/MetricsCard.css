@@ -1,0 +1,43 @@
+.metrics-card {
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.metrics-card .card-header {
+    background-color: #090d49;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.metrics-card h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.metrics-card p {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+    margin: 0;
+}
+
+/* Ensure spacing consistency */
+.metrics-card {
+    margin-bottom: 20px; /* Ensure spacing between cards */
+}
+
+@media (max-width: 768px) {
+    .metrics-card {
+        margin-bottom: 10px; /* Adjust spacing on small screens */
+    }
+}

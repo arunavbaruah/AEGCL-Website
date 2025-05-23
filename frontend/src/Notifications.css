@@ -1,0 +1,33 @@
+.notifications-card {
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.notifications-card .card-header {
+    background-color: #090d49;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.notifications-card ul {
+    padding: 0;
+    list-style: none;
+}
+
+.notifications-card ul li {
+    padding: 5px 0;
+}
+
+/* Ensure spacing consistency */
+.notifications-card {
+    margin-bottom: 20px; /* Ensure spacing between cards */
+}
+
+@media (max-width: 768px) {
+    .notifications-card {
+        margin-bottom: 10px; /* Adjust spacing on small screens */
+    }
+}

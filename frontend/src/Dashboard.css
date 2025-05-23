@@ -1,0 +1,39 @@
+/* src/Dashboard.css */
+.dashboard-container {
+    display: flex;
+    background-color: #4e9cf0; /* Change this color to your desired background color */
+    min-height: 100vh; /* Ensure the container takes up the full viewport height */
+    padding: 20px; /* Add padding around the container */
+    display: flex; /* Use flex to align items inside the container */
+}
+
+.dashboard-content {
+    margin-left: 250px; /* Adjust as needed based on sidebar width */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+/* Media query for small devices */
+@media (max-width: 768px) {
+    .dashboard-container {
+        flex-direction: column;
+    }
+
+    .dashboard-content {
+        margin-left: 0; /* Remove left margin on small screens */
+    }
+
+    .sidebar {
+        width: 100%; /* Make sidebar full width */
+        height: auto; /* Adjust height */
+    }
+}
+
+
+.dashboard-content {
+    flex: 1; /* Allow the content area to take the remaining space */
+    background-color: #acd4ff; /* Background color for the content area */
+    border-radius: 8px; /* Rounded corners for the content area */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for a card effect */
+    padding: 20px; /* Add padding inside the content area */
+}

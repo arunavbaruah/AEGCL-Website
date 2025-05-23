@@ -1,0 +1,39 @@
+.attendance-monitor {
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.attendance-monitor .card-header {
+    background-color: #090d49;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.attendance-monitor .card-body table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.attendance-monitor .card-body th, .attendance-monitor .card-body td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.attendance-monitor .card-body th {
+    background-color: #f4f4f4;
+}
+
+/* src/ProfileCard.css */
+.attendance-monitor {
+    margin-bottom: 20px; /* Ensure spacing between cards */
+}
+
+@media (max-width: 768px) {
+    .attendance-monitor {
+        margin-bottom: 10px; /* Adjust spacing on small screens */
+    }
+}

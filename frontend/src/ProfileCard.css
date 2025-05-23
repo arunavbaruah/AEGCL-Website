@@ -1,0 +1,28 @@
+.profile-card {
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card .profile-header {
+    background-color: #090d49;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.profile-card .profile-details {
+    padding: 20px;
+}
+
+/* Ensure spacing consistency */
+.profile-card {
+    margin-bottom: 20px; /* Ensure spacing between cards */
+}
+
+@media (max-width: 768px) {
+    .profile-card {
+        margin-bottom: 10px; /* Adjust spacing on small screens */
+    }
+}

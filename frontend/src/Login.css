@@ -1,0 +1,23 @@
+/* src/Login.css */
+/* src/Signup.css */
+.form-container {
+    width: 100%;
+    max-width: 400px; /* Maximum width for larger screens */
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Make sure the container takes full height */
+    padding: 15px;
+}
+
+.bg-primary {
+    background-color: #acd4ff !important; /* Ensure consistent background color */
+}

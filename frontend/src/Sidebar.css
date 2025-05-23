@@ -1,0 +1,65 @@
+/* Default styles for larger screens */
+.sidebar {
+    height: 100vh; /* Adjusted to 100% of the viewport height */
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #090d49;
+    padding-top: 0;
+    transition: width 0.3s ease; /* Smooth transition for width change */
+}
+
+.sidebar-logo {
+    height: 50px; /* Adjust the height as needed */
+    margin-right: 10px; /* Space between the logo and the text */
+    vertical-align: middle; /* Aligns the logo vertically with the text */
+}
+
+
+.sidebar-header {
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.sidebar ul {
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar ul li {
+    padding: 15px;
+    text-align: left;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar ul li a:hover {
+    background: #575757;
+}
+
+/* Styles for tablets and smaller devices */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 200px; /* Slightly narrower on tablets */
+    }
+}
+
+/* Styles for mobile devices */
+@media (max-width: 576px) {
+    .sidebar {
+        width: 100%; /* Full width on mobile */
+        height: auto; /* Allow the height to be dynamic based on content */
+        position: relative; /* Change position to relative for mobile */
+    }
+
+    .sidebar ul li {
+        padding: 10px; /* Reduce padding on mobile */
+    }
+}
